@@ -1,0 +1,20 @@
+[
+    {
+        "type": "Undefined Variable",
+        "description": "A variable is used before it has been defined or declared.",
+        "explanation": "The program is trying to use a variable that does not currently exist in the current scope.",
+        "fix": "Define the variable before using it or check the variable name for spelling mistakes."
+    },
+    {
+        "type": "Undefined Variable",
+        "description": "A variable name is referenced but was never created.",
+        "explanation": "The variable being referenced has not been defined before this line.",
+        "fix": "Create the variable before using it or use the correct variable name."
+    },
+    {
+        "type": "Syntax Error",
+        "description": "The code contains invalid Python syntax.",
+        "explanation": "Python cannot understand the structure of the code.",
+        "fix": "Check the syntax around the reported line."
+    }
+]
